@@ -198,11 +198,11 @@ namespace Assemble___Restaurant_System
                             break;
                         case 3:
                             isNumerical = true;
-                            Modify_The_Inventory();
+                            Inventory_Functions.Modify_The_Inventory();
                             break;
                         case 4:
                             isNumerical = true;
-                            Features.Login();
+                            Login_Menu();
                             break;
                         case 5:
                             System.Environment.Exit(0);
